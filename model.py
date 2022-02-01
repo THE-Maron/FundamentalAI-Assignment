@@ -53,5 +53,5 @@ if __name__ == '__main__':
     "answer.onnx",
     verbose=True,
     input_names=['x','W','Q','b'],
-    output_names=['h', 'y_out']
+    output_names=['h', 'y(output)']
     )
